@@ -7,6 +7,6 @@ package t18;
  */
 public class ALotOfFormat {
     public static void main(String[] args) {
-
+        
     }
 }
