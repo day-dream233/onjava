@@ -31,5 +31,9 @@ public class Demo19_2 {
 
         Object obj = aClass.newInstance();
         printInfo("newInstance + 多态", obj.getClass());
+
+        System.out.println();
+        System.out.println("Integer.class.getSuperclass() = " + Integer.class.getSuperclass());
+        System.out.println("结论：getSuperClass()是获取父类而非Object");
     }
 }
